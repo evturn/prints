@@ -5,6 +5,7 @@ description:         In 1993, in rebellion against Warner Bros., which refused
                      to release Prince's enormous backlog of music at a steady 
                      pace, he changed his name to an unpronounceable symbol.
 homepage:            https://github.com/evturn/prints
+package-url:         https://github.com/evturn/prints.git
 author:              Evan Turner
 maintainer:          ev@evturn.com
 copyright:           Copyright (c) Evan Turner
