@@ -1,13 +1,14 @@
 name:                prints
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            The Artist Formerly Known as Prints
 description:         In 1993, in rebellion against Warner Bros., which refused 
                      to release Prince's enormous backlog of music at a steady 
                      pace, he changed his name to an unpronounceable symbol.
 homepage:            https://github.com/evturn/prints
 package-url:         https://github.com/evturn/prints.git
+bug-reports:         https://github.com/evturn/prints/issues
 author:              Evan Turner
-maintainer:          ev@evturn.com
+maintainer:          ev <ev@evturn.com>
 copyright:           Copyright (c) Evan Turner
 license:             BSD3
 license-file:        LICENSE
@@ -31,4 +32,4 @@ library
 
 source-repository head
   type:              git
-  location:          https://github.com/evturn/prints
+  location:          https://github.com/evturn/prints.git
