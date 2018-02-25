@@ -1,5 +1,5 @@
-module Text.Prints
-  ( prints
+module Text.Prints.Printers.Simple
+  ( simplePrints
   ) where
 
 import           Control.Monad.IO.Class            (MonadIO)
@@ -8,8 +8,8 @@ import           Text.Pretty.Simple
 import           Text.Pretty.Simple.Internal
 import           Text.Pretty.Simple.Internal.Color
 
-prints :: (MonadIO m, Show a) => a -> m ()
-prints = pPrintOpt OutputOptions
+simplePrints :: (MonadIO m, Show a) => a -> m ()
+simplePrints = pPrintOpt OutputOptions
   { outputOptionsIndentAmount = 2
   , outputOptionsColorOptions = Just $ colors
   }
