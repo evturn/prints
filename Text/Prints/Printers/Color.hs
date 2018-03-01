@@ -2,6 +2,7 @@
 
 module Text.Prints.Printers.Color
     ( colorPrints
+    , strPrints
     ) where
 
 import qualified Language.Haskell.HsColour           as HSC
@@ -11,6 +12,9 @@ import           Text.Show.Pretty                    (ppShow)
 
 colorPrints :: Show a => a -> IO ()
 colorPrints = putStrLn . format . ppShow
+
+strPrints :: Show a => a -> String
+strPrints = ppShow
 
 prefs :: HSC.ColourPrefs
 prefs = HSC.defaultColourPrefs
